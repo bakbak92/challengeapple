@@ -1,0 +1,282 @@
+// out: styles.css, sourcemap: false, compress: false
+@white:white;
+@grey:rgb(139, 139, 139);
+@blue:rgb(66, 152, 214);
+
+#index{
+  background-image: url(iphone-gallery/basket.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    nav{
+      .c-navphone{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        li{
+          list-style: none;
+          color: @white;
+          .s-navphone{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            .l-bluetooth{
+              opacity: 0.7;
+            }
+            .l-circle{
+              i{
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        .l-gras{
+          font-weight: 700;
+          padding-left: 5px;
+          padding-right: 5px;
+          font-size: 13px;
+        }
+        .l-minus{
+          i{
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    header{
+      h1{
+        color: @white;
+        text-align: center;
+        padding-top: 50px;
+      }
+      p{
+        color: @white;
+        text-align: center;
+      }
+    }
+  footer{
+    a{
+      text-decoration: none;
+    p{
+      color: @white;
+      opacity: 0.7;
+      text-align: center;
+      span{
+        font-size: 25px;
+      }
+     }
+    }
+    ul{
+      display: flex;
+      justify-content: space-between;
+      li{
+        list-style: none;
+        color: @white;
+        opacity: 0.7;
+      }
+      .l-camera{
+        i{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #menugliss{
+    background-color:rgba(107, 104, 107, 0.84);
+    height: 400px;
+    background-position: fixed;
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        padding-right: 20px;
+        a{
+          text-decoration: none;
+          color: black;
+          background-color:rgba(64, 65, 63, 0.86);
+          padding: 10px;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
+}
+#page1{
+  background-image: url(iphone-gallery/basket.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  nav{
+    .c-navphone{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      li{
+        list-style: none;
+        color: @white;
+        .s-navphone{
+          padding: 0;
+          margin: 0;
+          display: flex;
+          .l-bluetooth{
+            opacity: 0.7;
+          }
+          .l-circle{
+            i{
+              font-size: 10px;
+            }
+          }
+        }
+      }
+      .l-gras{
+        font-weight: 700;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 13px;
+      }
+      .l-minus{
+        i{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  #menu{
+    .lineicon{
+      display: flex;
+      justify-content: space-around;
+      .icon{
+        img{
+          width: 50px;
+        }
+        p{
+          color: @white;
+        }
+      }
+    }
+  }
+  #menuprinci{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(107, 104, 107, 0.84);
+    padding: 10px;
+    background-position: fixed;
+    img{
+      width: 50px;
+    }
+    p{
+      color: @white;
+    }
+  }
+}
+#pagemsg{
+  background-color: @white;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  nav{
+    .c-navphone{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      li{
+        list-style: none;
+        color: black;
+        .s-navphone{
+          padding: 0;
+          margin: 0;
+          display: flex;
+          .l-bluetooth{
+            opacity: 0.7;
+          }
+          .l-circle{
+            i{
+              font-size: 10px;
+            }
+          }
+        }
+      }
+      .l-gras{
+        font-weight: 700;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 13px;
+      }
+      .l-minus{
+        i{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  header{
+    ul{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      li{
+        list-style: none;
+        font-weight: 800;
+      }
+      .l-blue{
+        color: @blue;
+        font-weight: 800;
+      }
+    }
+    .recherche{
+      background-color: @grey;
+      padding: 12px;
+      a{
+        text-decoration: none;
+        color: @grey;
+        background-color: @white;
+        text-align: center;
+        padding: 5px 100px;
+        border-radius: 5px;
+      }
+    }
+    .barsms{
+      border-bottom: 1px solid @grey;
+      display: flex;
+      justify-content: space-between;
+      height: 61px;
+      .profil{
+        display: flex;
+
+        .pp{
+          border-radius: 100%;
+          background-color:@grey;
+          color: @white;
+          padding: 15px;
+          margin: 5px;
+        }
+        p{
+          font-weight: 800;
+          span{
+            color: @grey;
+            font-weight: 500;
+          }
+        }
+      }
+      .hour{
+        color: @grey;
+      }
+    }
+  }
+}

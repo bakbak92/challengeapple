@@ -1,0 +1,246 @@
+#index {
+  background-image: url(iphone-gallery/basket.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#index nav .c-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#index nav .c-navphone li {
+  list-style: none;
+  color: white;
+}
+#index nav .c-navphone li .s-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#index nav .c-navphone li .s-navphone .l-bluetooth {
+  opacity: 0.7;
+}
+#index nav .c-navphone li .s-navphone .l-circle i {
+  font-size: 10px;
+}
+#index nav .c-navphone .l-gras {
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+#index nav .c-navphone .l-minus i {
+  opacity: 0.7;
+}
+#index header h1 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+#index header p {
+  color: white;
+  text-align: center;
+}
+#index footer a {
+  text-decoration: none;
+}
+#index footer a p {
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+#index footer a p span {
+  font-size: 25px;
+}
+#index footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+#index footer ul li {
+  list-style: none;
+  color: white;
+  opacity: 0.7;
+}
+#index footer ul .l-camera i {
+  font-size: 20px;
+}
+#index #menugliss {
+  background-color: rgba(107, 104, 107, 0.84);
+  height: 400px;
+  background-position: fixed;
+}
+#index #menugliss ul {
+  display: flex;
+  justify-content: center;
+}
+#index #menugliss ul li {
+  padding-right: 20px;
+}
+#index #menugliss ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(64, 65, 63, 0.86);
+  padding: 10px;
+  border-radius: 100%;
+}
+#page1 {
+  background-image: url(iphone-gallery/basket.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#page1 nav .c-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#page1 nav .c-navphone li {
+  list-style: none;
+  color: white;
+}
+#page1 nav .c-navphone li .s-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#page1 nav .c-navphone li .s-navphone .l-bluetooth {
+  opacity: 0.7;
+}
+#page1 nav .c-navphone li .s-navphone .l-circle i {
+  font-size: 10px;
+}
+#page1 nav .c-navphone .l-gras {
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+#page1 nav .c-navphone .l-minus i {
+  opacity: 0.7;
+}
+#page1 #menu .lineicon {
+  display: flex;
+  justify-content: space-around;
+}
+#page1 #menu .lineicon .icon img {
+  width: 50px;
+}
+#page1 #menu .lineicon .icon p {
+  color: white;
+}
+#page1 #menuprinci {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(107, 104, 107, 0.84);
+  padding: 10px;
+  background-position: fixed;
+}
+#page1 #menuprinci img {
+  width: 50px;
+}
+#page1 #menuprinci p {
+  color: white;
+}
+#pagemsg {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+#pagemsg nav .c-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#pagemsg nav .c-navphone li {
+  list-style: none;
+  color: black;
+}
+#pagemsg nav .c-navphone li .s-navphone {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#pagemsg nav .c-navphone li .s-navphone .l-bluetooth {
+  opacity: 0.7;
+}
+#pagemsg nav .c-navphone li .s-navphone .l-circle i {
+  font-size: 10px;
+}
+#pagemsg nav .c-navphone .l-gras {
+  font-weight: 700;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+}
+#pagemsg nav .c-navphone .l-minus i {
+  opacity: 0.7;
+}
+#pagemsg header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#pagemsg header ul li {
+  list-style: none;
+  font-weight: 800;
+}
+#pagemsg header ul .l-blue {
+  color: #4298d6;
+  font-weight: 800;
+}
+#pagemsg header .recherche {
+  background-color: #8b8b8b;
+  padding: 12px;
+}
+#pagemsg header .recherche a {
+  text-decoration: none;
+  color: #8b8b8b;
+  background-color: white;
+  text-align: center;
+  padding: 5px 100px;
+  border-radius: 5px;
+}
+#pagemsg header .barsms {
+  border-bottom: 1px solid #8b8b8b;
+  display: flex;
+  justify-content: space-between;
+  height: 61px;
+}
+#pagemsg header .barsms .profil {
+  display: flex;
+}
+#pagemsg header .barsms .profil .pp {
+  border-radius: 100%;
+  background-color: #8b8b8b;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+}
+#pagemsg header .barsms .profil p {
+  font-weight: 800;
+}
+#pagemsg header .barsms .profil p span {
+  color: #8b8b8b;
+  font-weight: 500;
+}
+#pagemsg header .barsms .hour {
+  color: #8b8b8b;
+}
